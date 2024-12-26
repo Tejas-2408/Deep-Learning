@@ -1,0 +1,11 @@
+Deep Learning:
+
+1. ANN -> Artificial Neural Network:
+	a. Classification
+	b. Regression
+
+2. CNN -> Convonutional Neural network:
+	I/P data is Images, video frames -> RCNN, MASKED RCNN, YOLO
+
+3. RNN -> Recurrent Neural Network: (NLP)
+	I/P Text, time series 
