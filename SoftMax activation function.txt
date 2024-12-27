@@ -1,0 +1,2 @@
+>>>>>>>>>>>> SoftMax activation function
+- Used in output layer function for Multiclass classification problem

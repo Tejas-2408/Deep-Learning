@@ -10,7 +10,7 @@ To fix this issue we have explore other activation functions:
 4. Swiss
 
 
->> Sigmoid Activation function:
+>>>>>>>>>>>>>>>>>>>>>>>>>>> Sigmoid Activation function:
 Advantages:
 1. Suitable for binary classification
 2. Clear predictions i.e., very close to 1 or 0
@@ -22,7 +22,7 @@ Disadvantages:
 
 
 
->> TanH activation function:
+>>>>>>>>>>>>>>>>>>>>>>>>>>> TanH activation function:
 Advantages:
 1. Zero centric
 
@@ -32,7 +32,8 @@ Disadvantages:
 
 
 
->> Relu (rectified linear unit) activation function
+>>>>>>>>>>>>>>>>>>>>>>>>>>> Relu activation function
+Relu -> (rectified linear unit)
 Relu = max(0,x)
 
 Advantages:
@@ -45,7 +46,7 @@ Disadvantages:
 2. It is not zero centric
 
 
->> Leaky Relu
+>>>>>>>>>>>>>>>>>>>>>>>>>>> Leaky Relu
 f(x) = max(0.01x,x) = max(alpha*x,x)
 alpha -> hyperparameter
 
@@ -62,11 +63,20 @@ Disadvantages:
 1. Not zero centric
 
 
->> ELU (Exponential Linear unit)
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>> ELU (Exponential Linear unit)
 Advantages:
 1. Solves the dead relu/neuron problem
 2. Zero centric -> efficient weight updation
 
 Disadvantages:
 1. Slightly more computational -> time consuming
+
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>> Using Activation function
+
+
 
