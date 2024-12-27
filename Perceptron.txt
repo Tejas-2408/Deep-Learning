@@ -1,0 +1,17 @@
+Perceptron:
+1. Basic Neural Network
+2. Single Layered NN -> Binary Classifier
+
+
+Single Layer Perceptron model
+- Feed Forward Neural Network
+	a. Step 1 -> z = xw +b (bias)
+	b. Activation function
+
+Multi Layer Perceptron Model [ANN] -> Easy to switch weights
+1. Forward Propagation
+2. Backward Propagation
+3. Loss functions
+4. Activation function
+5. Optimizers
+

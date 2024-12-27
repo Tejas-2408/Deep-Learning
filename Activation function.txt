@@ -1,0 +1,72 @@
+Sigmoid Activation function
+
+- Vanishing gradient problem:
+when new weights is nearly equal to old wights the shift is negligible due to low change in values by chain derivate rule
+
+To fix this issue we have explore other activation functions:
+1. Tanh
+2. Relu
+3. Pre relu
+4. Swiss
+
+
+>> Sigmoid Activation function:
+Advantages:
+1. Suitable for binary classification
+2. Clear predictions i.e., very close to 1 or 0
+
+Disadvantages:
+1. Vanishing gradient issue
+2. Not zero centered -> efficient weight updation
+3. because of exponential activation function, mathematical operation are time consuming
+
+
+
+>> TanH activation function:
+Advantages:
+1. Zero centric
+
+Disadvantages:
+1. Prone to vanishing gradient for Deep Neural Networks
+2. Time consuming
+
+
+
+>> Relu (rectified linear unit) activation function
+Relu = max(0,x)
+
+Advantages:
+1. Solves vanishing gradient issue
+2. max(0,x) so calculation is fast. The Relu function has linear relationship
+3. faster than sigmoid and tanh
+
+Disadvantages:
+1. Dead neuron
+2. It is not zero centric
+
+
+>> Leaky Relu
+f(x) = max(0.01x,x) = max(alpha*x,x)
+alpha -> hyperparameter
+
+
+if alpha = 0.01 -> Leaky relu
+If alpha is a parameter -> parametric Relu
+
+Advantages:
+1. leaky relu has all the advantages of relu
+2. Solves the issue of Dead relu/neuron problem
+
+
+Disadvantages:
+1. Not zero centric
+
+
+>> ELU (Exponential Linear unit)
+Advantages:
+1. Solves the dead relu/neuron problem
+2. Zero centric -> efficient weight updation
+
+Disadvantages:
+1. Slightly more computational -> time consuming
+
